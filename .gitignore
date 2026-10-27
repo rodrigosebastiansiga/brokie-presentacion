@@ -1,0 +1,22 @@
+# Archivos del sistema y del editor
+desktop.ini
+.DS_Store
+Thumbs.db
+*~
+
+# Evitar incorporar accidentalmente material técnico o fuente
+*.py
+*.json
+*.npy
+*.npz
+*.stl
+*.3mf
+*.step
+*.stp
+*.ino
+*.log
+
+# Sólo se admite material público revisado dentro de media/
+media/raw/
+media/diagnostico/
+
