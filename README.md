@@ -1,4 +1,4 @@
-# Brokie — prototipo de robot de ajedrez
+# Brokie — brazo de ajedrez robótico
 
 Brokie es un prototipo experimental de robot de ajedrez desarrollado alrededor
 de una Raspberry Pi 5. Combina visión artificial, control de un brazo
