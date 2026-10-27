@@ -5,9 +5,10 @@ de una Raspberry Pi 5. Combina visión artificial, control de un brazo
 articulado, interacción táctil y un motor de ajedrez para jugar sobre un
 tablero físico real.
 
-Este repositorio es una **presentación pública del proyecto**. No contiene el
-código fuente, las calibraciones, los modelos de fabricación ni los parámetros
-necesarios para reproducir el sistema.
+Este repositorio es una **presentación pública del proyecto**. Incluye solamente
+la aplicación principal `app.py` y el modelo STL de la campana centradora. No
+incluye el módulo de visión, calibraciones ni los demás archivos y parámetros
+necesarios para reproducir el sistema completo.
 
 ![Vista canónica del tablero observada por Brokie](media/CANONICO_Z_10.jpg)
 
@@ -86,16 +87,21 @@ La precisión depende de su construcción, calibración, iluminación, piezas y
 tablero. Los resultados observados en este prototipo no constituyen una
 especificación comercial ni una garantía aplicable a otras construcciones.
 
+## Archivos compartidos
+
+- [`codigo/app.py`](codigo/app.py): aplicación principal del prototipo.
+- [`modelos/campana_boca30_v4_centrador.stl`](modelos/campana_boca30_v4_centrador.stl): campana centradora del electroimán.
+
 ## Contenido no publicado
 
-Para proteger el desarrollo, este repositorio no distribuye:
+Para proteger el resto del desarrollo, este repositorio no distribuye:
 
-- código fuente de visión, movimiento o control;
+- el módulo de visión y otros módulos auxiliares;
 - calibraciones de cámara, tablero o brazo;
 - parámetros, umbrales y casos de regresión;
 - bitácoras y capturas técnicas de diagnóstico;
 - diagramas eléctricos o instrucciones de fabricación;
-- STL, 3MF u otros modelos tridimensionales;
+- otros STL, 3MF o modelos tridimensionales;
 - historial técnico interno del prototipo.
 
 ## Derechos
