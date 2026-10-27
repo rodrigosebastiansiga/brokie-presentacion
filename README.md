@@ -9,6 +9,11 @@ Este repositorio es una **presentación pública del proyecto**. No contiene el
 código fuente, las calibraciones, los modelos de fabricación ni los parámetros
 necesarios para reproducir el sistema.
 
+![Vista canónica del tablero observada por Brokie](media/CANONICO_Z_10.jpg)
+
+*Vista canónica utilizada por el sistema para observar el tablero de manera
+geométricamente estable.*
+
 ## Qué hace Brokie
 
 - Observa el tablero con una única cámara.
@@ -22,7 +27,7 @@ necesarios para reproducir el sistema.
 
 ## Video de demostración
 
-[Ver “Un poco de cómo funciona Brokie”](media/un_poco_como_funciona.mp4)
+[Ver “Un poco de cómo funciona Brokie”](media/un_poco_como%20_funciona.mp4)
 
 El video muestra una demostración general del prototipo en funcionamiento. Se
 publica como material audiovisual y no incluye los archivos internos necesarios
